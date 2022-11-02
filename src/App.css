@@ -1,0 +1,225 @@
+* {
+  margin: 0;
+  font-size: 20px;
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+  height: 100vh;
+  background-image: linear-gradient(#FDEEDC,#FFD8A9);
+}
+
+
+ul {
+  list-style-type: none;
+  border: solid 1px transparent;
+  height: 1rem;
+}
+li {
+  padding-top: 1.5rem;
+  height: 2rem;
+  float: left;
+  margin-bottom: 2rem;
+  margin-left: .5rem;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-transform: uppercase;
+  font-weight: 450;
+}
+
+.filter{
+  margin-top: 4rem;
+
+}
+.newItemCont{
+  margin: 1rem;
+}
+.newItemCont input{
+  margin: .3rem;
+  width: 16rem;
+  height: 2.5rem;
+  border-radius: 2rem;
+}
+.BtnNewItem{
+  margin: .5rem .5rem;
+  font-size: .8rem;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.DisplayItems{
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  gap: .5rem;
+
+ 
+}
+.PerItems{
+  height: 15rem;
+  width: 20rem;
+  border:solid 2px black;
+  display:grid;
+  grid-template-areas: 
+
+        "a  c "
+        "b  d "
+       
+    ;
+  border-radius: 5%; 
+}
+.coffeeType{
+  font-weight: 800;
+  text-transform: uppercase;
+}
+.ItemName{
+  grid-area: a;
+  text-align: center;
+  font-weight: 500;
+}
+.itemName p {
+  font-weight: 600;
+}
+
+.bb {
+  grid-area:b;
+  
+}
+.bb button {
+  margin: .5rem .5rem;
+  border-radius: 15%;
+  size: 1rem;
+  height: 2rem;
+  width: 2rem;
+}
+.ItemDetails{
+  grid-area: c;
+  padding-left: .5rem;
+  margin: .2rem;
+  text-align: left;
+}
+.ItemDetails p {
+  width: 7rem;
+  padding: .5rem 0 .5rem 0;
+  margin:.1rem 0 .1rem 0;
+  font-weight: 35000;
+}
+.Items{
+  
+  margin-top: 1rem;
+  margin-left: .5rem;
+  height: 8rem;
+  width: 8rem;
+  border-radius: 40%;
+  padding: .5rem .5rem .5rem .5rem;
+ 
+}
+.d input{
+  width: 2rem;
+  height: 2rem;
+  margin-bottom:1rem;
+}
+.d {
+  grid-area: d;
+  height: 2rem;
+  margin: .5rem .5rem;  
+}
+.DeLBtn{
+float: right;
+border-radius: 15%;
+size: 1rem;
+height: 2rem;
+width: 2rem;
+}
+#Cart {
+  font-size: .8rem;
+  margin-left: .7rem;
+  text-align: center;
+  height: 2rem;
+  width: 6rem;
+    
+}
+
+.cartDetails{
+  display:flex;
+  width:17rem;
+  border: solid 2px grey;
+  border-radius: 5%;
+}
+
+.DisplayItemsCart{
+  margin-top: 7rem;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  gap: .5rem;
+  
+}
+.a{
+  grid-area: a;
+  text-align: center;
+  font-weight: 400;
+  
+}
+.a input{
+  margin: 0 0 1rem 0;
+  width: 2rem;
+  text-align: center;
+  color: black;
+  background-color: transparent;
+  border: none;
+  
+}
+.a img{
+ height: 8rem;
+ width: 8rem;
+}
+.btn {
+  height: 1.5rem;
+  width: 1.5rem ;
+}
+.b{
+  margin: .5rem .5rem;
+  
+}
+.b p {
+  width: 7rem;
+  padding: .5rem 0 .5rem 0;
+  margin:.5rem 0 .5rem 0;
+  font-weight: 400;
+}
+.cartCancel {
+  margin-left: 2rem;
+  width: 2.5rem;
+  height: 2rem;
+  
+}
+.cartCont {
+  border: solid 1px transparent; 
+  margin-bottom: 2rem;
+}
+
+
+#amount{
+  float: right;
+  border-radius: 15%;
+  size: 1rem;
+  height: 2rem;
+  width: 12rem;
+  margin-right: 7rem;
+  text-align: left;
+  font-weight: 450;
+  font-size: 1.3rem ;
+}
